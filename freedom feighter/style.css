@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* top navigation section */
+.mainnev{
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.mainnev{
+    padding: 0 5%;
+}
+.mainheader{
+    background-color: rgba(0, 0, 0, .6);
+    background-image:url("freedomfeighter.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.headname{
+    text-align: center;
+    font-size: 3em;
+    font-family:Georgia;
+    font-weight: normal;
+    color:darkkhaki;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+/* top navigation section end */
+
+
+
+
+/* body section */
+.content{
+    margin: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.contentheader{
+    font-family:Arial ;
+    color: #333;
+    text-align: center;
+    font-size: 2.2em;
+}
+.contentheader2{
+    font-family:Arial ;
+    color: #333;
+    text-align: center;
+    font-size: 2.2em;
+}
+.btn{
+    text-align: right;
+    vertical-align:auto;
+    padding: .67em;
+    cursor: pointer;
+    margin: .5em 15% 2em 15%;
+    color: black;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(143, 231, 228, 0.824);
+    font-size: 10px;
+    font-weight: lighter;
+}
+.btn:hover{
+    background-color:cadetblue;
+}
+.ctimg{
+    height: 130px;
+    width: 200px;
+    margin: 15px;
+    
+}
+.abtimg{
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    
+}
+
+/* footer section */
+.mainfooter{
+    background-color:rgba(0, 0, 0, 0.757);
+    color: white;
+    padding: .25em 0;
+}
+.ftrctn{
+    display: flex;
+    align-items: center;
+}
+
+.ftrbtn{
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    width: 80px;
+}
+.ftrbtn:hover{
+    background-color: black;
+}
