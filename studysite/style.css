@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 75px;
+    background-color: grey;
+    width: 96.6%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header- a:hover {
+    background-color: aqua;
+}
+
+.learning-logo {
+    width: 45px;
+    padding: 0px 8px;
+}
+
+.learning-logo img {
+    width: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left .menu-btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+
+.header-left .menu-btn:hover {
+    background-color: salmon;
+
+}
+
+.header-left .menu-btn:first-child {
+    padding: 0;
+}
+
+.header-left .menu-btn:first-child:hover {
+    background-color: transparent;
+    padding: 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-pink {
+    background-color: pink;
+
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+    gap: 18px;
+}
+
+.header-right a {
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 60px;
+
+}
+
+.header-right a:hover {
+    background-color: gold;
+}
+
+
+
+.nested-nevigation-container {
+    color: white;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+}
+
+.nested-nevigation-container_close-btn {
+    position: absolute;
+    right: 0;
+
+
+
+}
+
+.nested-nevigation-container_close-btn.button {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.nested-nevigation-container_close-btn:hover {
+    background-color: red;
+    color: purple;
+}
+
+.nested-nevigation-container_content {
+    width: 90%;
+    background-color: green;
+    margin: auto;
+    padding-top: 0;
+}
+
+.nested-nevigation-container_content h1 {
+    margin: 0;
+    color: blue;
+
+}
+
+.nested-nevigation-container_content_data {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+}
+
+.nested-nevigation_item h2 {
+    color: yellow;
+    margin-top: 30px;
+}
+
+
+
+/* dropdown btn */
+.dropbtn {
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* body section */
+.bdy {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+}
